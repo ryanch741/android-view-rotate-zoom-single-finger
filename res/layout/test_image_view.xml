@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+        >
+    <View android:layout_width="fill_parent"
+          android:layout_height="fill_parent"/>
+    <ImageView
+            android:id="@+id/view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="top|left"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:background="#ff0000"
+            android:focusable="true"/>
+    />
+    <ImageView
+            android:id="@+id/push_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="top|left"
+            android:background="#aa333333"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:focusableInTouchMode="true"
+            />
+</FrameLayout>

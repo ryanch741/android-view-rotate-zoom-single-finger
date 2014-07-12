@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:pushtouch="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        >
+    <ImageView
+            android:layout_width="fill_parent"
+            android:src="@drawable/bg"
+            android:layout_height="fill_parent"/>
+    <com.example.testimg.SingleFingerView
+            android:id="@+id/tiv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            pushtouch:image="@drawable/crown"
+            pushtouch:image_width="200dp"
+            pushtouch:image_height="150dp"
+            pushtouch:push_image="@drawable/push_btn"
+            pushtouch:push_image_width="50dp"
+            pushtouch:push_image_height="50dp"
+            pushtouch:centerInParent="true"
+            />
+</FrameLayout>
+
